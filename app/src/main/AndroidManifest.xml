@@ -38,6 +38,9 @@
             android:name=".home.HomeActivity"
             android:exported="true" />
         <activity
+            android:name=".admin.AdminActivity"
+            android:exported="true"/>
+        <activity
             android:name=".sign.signup.SignUpPhotoScreenActivity"
             android:exported="true" />
         <activity

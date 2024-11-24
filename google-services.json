@@ -1,37 +1,27 @@
 {
   "project_info": {
-    "project_number": "448093330088",
-    "firebase_url": "https://beny-mov-3ddbe-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "beny-mov-3ddbe",
-    "storage_bucket": "beny-mov-3ddbe.appspot.com"
+    "project_number": "745218057834",
+    "firebase_url": "https://bookingtiketbioskop-4dc64-default-rtdb.firebaseio.com",
+    "project_id": "bookingtiketbioskop-4dc64",
+    "storage_bucket": "bookingtiketbioskop-4dc64.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:448093330088:android:798880e1039e02d4e2409d",
+        "mobilesdk_app_id": "1:745218057834:android:ddec6f61479085eb258c13",
         "android_client_info": {
           "package_name": "com.rohmanbeny.mov"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "448093330088-cgrk6bibhp9fgk6cdv0iikc1n2t25dug.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAEvYUCCu-rLYbi2i42jRsr3t-r9CNXHDo"
+          "current_key": "AIzaSyBhvBsDgLJso4YN5AcDorQXeODCQGDZsnQ"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "448093330088-cgrk6bibhp9fgk6cdv0iikc1n2t25dug.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

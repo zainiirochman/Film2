@@ -6,6 +6,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.*
 import com.rohmanbeny.mov.home.HomeActivity
+import com.rohmanbeny.mov.admin.AdminActivity
 import com.rohmanbeny.mov.R
 import com.rohmanbeny.mov.sign.signup.SignUpActivity
 import com.rohmanbeny.mov.utils.Preferences
@@ -39,16 +40,20 @@ class SignInActivity : AppCompatActivity() {
             iUsername = et_username.text.toString()
             iPassword = et_password.text.toString()
 
-            if (iUsername.equals("")) {
+            if (iUsername.equals("admin") && iPassword.equals("123!@#qweQWE")) {
+                val intent = Intent(this@SignInActivity, AdminActivity::class.java)
+                startActivity(intent)
+//                finish()
+                finishAffinity()
+            } else if (iUsername.equals("")) {
                 et_username.error = "Silahkan tulis Username Anda"
                 et_username.requestFocus()
             } else if (iPassword.equals("")) {
                 et_password.error = "Silahkan tulis Password Anda"
                 et_password.requestFocus()
             } else {
-
                 val statusUsername = iUsername.indexOf(".")
-                if (statusUsername >=0) {
+                if (statusUsername >= 0) {
                     et_username.error = "Silahkan tulis Username Anda tanpa ."
                     et_username.requestFocus()
                 } else {

@@ -51,4 +51,8 @@
     <string name="top_up">Top Up</string>
     <string name="saldo_tersedia">Saldo Tersedia</string>
     <string name="sukses_topup">Tiket berhasil dibeli\nSelamat menikmati film</string>
+    <string name="title_settings">Pengaturan</string>
+    <string name="change_language">Ubah Bahasa</string>
+    <string name="help">Bantuan</string>
+
 </resources>
